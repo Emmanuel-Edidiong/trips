@@ -13,6 +13,7 @@
   ],
   "compilerOptions": {
     "noEmitOnError": false,
+    "strict": false,
     // other options
   },
 }
