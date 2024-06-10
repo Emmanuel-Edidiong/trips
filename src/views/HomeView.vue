@@ -246,7 +246,7 @@ import moment from 'moment'
 import { useRouter } from 'vue-router'
 import debounce from 'lodash/debounce';
 
-const router = useRouter()
+const router = useRouter();
 const departure = ref('')
 const destinations =  ref([{ name: '' }]);
 const arrCode = ref('')

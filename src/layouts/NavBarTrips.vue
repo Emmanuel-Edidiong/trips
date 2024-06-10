@@ -3,7 +3,7 @@
 import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink, FwbNavbarLogo } from 'flowbite-vue'
 import { useRouter } from 'vue-router'
 
-const router = useRouter()
+const router = useRouter();
 
 const handleRoute = () => {
   router.push('/');
