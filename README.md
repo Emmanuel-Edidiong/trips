@@ -1,4 +1,4 @@
-<p align="center"><a href="https://trips.vercel.app" target="_blank"><img src="/src/assets/trips-logo.png" width="400"> Trips</a></p>
+<p align="center"><a href="https://trips.vercel.app" target="_blank"><img src="/src/assets/trips-logo.png" width="100"> Trips</a></p>
 
 
 ## About Trips
