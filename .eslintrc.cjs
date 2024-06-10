@@ -11,5 +11,10 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    '@typescript-eslint/no-unused-vars': 'off',  // example of ignoring a specific rule
+    '@typescript-eslint/explicit-module-boundary-types': 'off',  // another example
+    // add other rules you want to ignore
   }
 }
