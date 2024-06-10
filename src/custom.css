@@ -1,0 +1,379 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  border-bottom: 1px solid #eee;
+}
+
+.-mt-2 {
+  margin-top: -20px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.header-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.karla-font {
+  font-family: 'Karla', sans-serif;
+}
+
+.raj-font {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.mt-10 {
+  margin-top: 4rem;
+}
+
+.pt-6 {
+  padding-top: 3rem;
+}
+
+.py-6 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.text-xl {
+  font-size: 1.5rem !important; /* 18px */
+  line-height: 1.55rem !important; /* 28px */
+}
+
+.-mt-1 {
+  margin-top: -0.5rem;
+}
+
+.text-color {
+  color: #f44336 !important;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.custom-width {
+  width: 915px;
+}
+
+.cus-input {
+  height: 3.5rem;
+}
+
+.px-8 {
+  padding-left: 2.5rem !important;
+  padding-right: 2rem;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.mt-20 {
+  margin-top: 10rem;
+}
+
+.lg\:absolute {
+  position: absolute;
+}
+
+.cus-pad {
+  top: -2.5rem;
+  right: -21rem;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .md\:text-blue-700 {
+    --tw-text-opacity: 1;
+    color: #002a33 !important;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .dotted-line {
+    width: 100px !important;
+  }
+  
+
+  .header-text {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 4rem;
+  }
+
+  .lg\:hidden {
+    display: none !important;
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .custom-width {
+    width: unset;
+  }
+
+  .lg\:absolute {
+    position: relative;
+  }
+
+  .cus-pad {
+    top: unset;
+    right: unset;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .custom-text {
+    font-size: 12px;
+  }
+
+  .bg-blue-700 {
+    background-color: #002a33 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f44336;
+}
+
+.swiper-pagination {
+  bottom: -1rem !important;
+}
+
+.swiper-pagination-bullet {
+  /* bottom: -40px !important; */
+  height: 20px !important;
+  width: 10px !important;
+  border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f44336 !important;
+}
+
+.bg-image {
+  background-image: url('/src/assets/travel-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.bg-image1 {
+  background-image: url('/src/assets/travel-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+.dotted-line {
+  border: 1px dashed #f44336;
+  width: 300px;
+}
+
+.dotted-vertical-line {
+  border-left: 1px dashed #f44336;
+  height: 100px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.footer-bg {
+  background-color: #2b0402;
+  /* background-image: url('/src/assets/footer-bg.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-4 {
+  opacity: 0.4;
+}
+
+.md\:hover\:text-blue-700:hover {
+  color: #f44336 !important;
+}
+
+.fh5co-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: transparent;
+  border-top-color: #f44336;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+.loader:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f44336;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f44336;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes hithere {
+  30% {
+    transform: scale(1);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1);
+  }
+  50% {
+    transform: rotate(20deg) scale(1);
+  }
+  70% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
