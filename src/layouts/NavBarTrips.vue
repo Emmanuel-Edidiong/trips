@@ -13,7 +13,7 @@ const handleRoute = () => {
 <template>
   <fwb-navbar class="fixed navbar">
     <template #logo>
-      <fwb-navbar-logo class="text-gray-900" alt="Flowbite logo" image-url="./assets/images/trips-logo.png" link="#">
+      <fwb-navbar-logo class="text-gray-900" alt="Flowbite logo" image-url="./assets/images/trips-logo.png" link="/">
         Trips
       </fwb-navbar-logo>
     </template>
